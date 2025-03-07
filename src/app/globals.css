@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+.pacifico-regular {
+  font-family: var(--font-pacifico), cursive;
+  font-weight: 400;
+  /* font-style: normal; */
+}
+
+.font-paytone {
+  font-family: var(--font-paytone-one), sans-serif;
+  font-weight: 400;
+  /* font-style: normal; */
+}
+
+.bellefair-regular {
+  font-family: var(--font-bellefair), serif;
+  font-weight: 400;
+  /* font-style: normal; */
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #FFF6F2;
+}
