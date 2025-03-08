@@ -46,9 +46,11 @@ export default function Home() {
             <FaSquareGithub onClick={ OpenGithub } className="text-black hover:text-gray-700 cursor-pointer hover:scale-110 transition-transform duration-300" />
           </div>
           <div>
-            <button className="bg-black text-white px-2 py-1 text-[14px] cursor-pointer md:text-[16px] border-1 border-white rounded-sm hover:bg-gray-800 hover:text-white hover:shadow-lg transition-all duration-300">
-              Download Resume
-            </button>
+            <a href="/pdf/MohammedArif_Full-Stack.pdf" download="Mohammed_Arif_Resume.pdf">
+              <button className="bg-black text-white px-2 py-1 text-[14px] cursor-pointer md:text-[16px] border-1 border-white rounded-sm hover:bg-gray-800 hover:text-white hover:shadow-lg transition-all duration-300">
+                Download Resume
+              </button>
+            </a>
           </div>
         </div>
       </div>
