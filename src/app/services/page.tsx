@@ -1,4 +1,6 @@
 import '@/app/loading'
+import Image from 'next/image';
+
 
 export default function Services() {
     
@@ -13,8 +15,8 @@ export default function Services() {
                     <div className="absolute inset-0 bg-pink-700 origin-bottom transform scale-y-0 group-hover:scale-y-100 transition-transform duration-300 ease-in-out"></div>
                     <div className="relative z-10">
                         <div className="flex justify-center items-center p-2">
-                            <img src="/images/website.png"
-                                alt="frontend-img" height='80px' width='80px'
+                            <Image src="/images/website.png"
+                                alt="frontend-img" height={80} width={80}
                                 className="group-hover:filter group-hover:brightness-0 group-hover:invert transition-all duration-300"
                             />
                         </div>
@@ -31,8 +33,8 @@ export default function Services() {
                     <div className="absolute inset-0 bg-pink-700 origin-bottom transform scale-y-0 group-hover:scale-y-100 transition-transform duration-300 ease-in-out"></div>
                     <div className="relative z-10">
                         <div className="flex justify-center items-center p-2">
-                            <img src="/images/backend-coding.png"
-                                alt="backend-img" height='80px' width='80px'
+                            <Image src="/images/backend-coding.png"
+                                alt="backend-img" height={80} width={80}
                                 className="group-hover:filter group-hover:brightness-0 group-hover:invert transition-all duration-300"
                             />
                         </div>
@@ -49,8 +51,8 @@ export default function Services() {
                     <div className="absolute inset-0 bg-pink-700 origin-bottom transform scale-y-0 group-hover:scale-y-100 transition-transform duration-300 ease-in-out"></div>
                     <div className="relative z-10">
                         <div className="flex justify-center items-center p-2">
-                            <img src="/images/full-stack.png"
-                                alt="fullstack-img" height='80px' width='80px'
+                            <Image src="/images/full-stack.png"
+                                alt="fullstack-img" height={80} width={80}
                                 className="group-hover:filter group-hover:brightness-0 group-hover:invert transition-all duration-300"
                             />
                         </div>

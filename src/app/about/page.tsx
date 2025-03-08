@@ -30,7 +30,7 @@ export default function About() {
                     </div>
                     <div className="flex items-center gap-2">
                         <span className="font-semibold">Degree:</span>
-                        <span>Bachelor's (BSc Electronics)</span>
+                        <span>Bachelor&apos;s (BSc Electronics)</span>
                     </div>
                     <div className="flex items-center gap-2">
                         <span className="font-semibold">City:</span>

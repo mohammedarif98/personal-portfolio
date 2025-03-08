@@ -34,12 +34,12 @@ export default function Home() {
       {/* ---------------- Left Section ---------------- */}
       <div className="space-y-2 md:mr-8 text-center md:text-left">
         <p className="font-bold bellefair-regular text-[16px] md:text-[18px] lg:text-[20px] first-letter:text-red-800 first-letter:font-bold first-letter:text-3xl">
-          I'm a Full-Stack Developer, Passionate about building scalable,<br /> accessible, and user-friendly applications.
+          I&apos;m a Full-Stack Developer, Passionate about building scalable,<br /> accessible, and user-friendly applications.
         </p>
         <hr className="my-2" />
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 px-2">
           <div className="flex gap-2 text-2xl items-center">
-            <p className="bellefair-regular text-[16px] md:text-[18px]">Let's Connect : </p>
+            <p className="bellefair-regular text-[16px] md:text-[18px]">Let&apos;s Connect : </p>
             <BsLinkedin onClick={ OpenLinkedIn } className="text-blue-900 hover:text-blue-700 cursor-pointer hover:scale-110 transition-transform duration-300" />
             <FaWhatsappSquare onClick={ OpenWhatsApp } className="text-green-500 hover:text-green-700 cursor-pointer hover:scale-110 transition-transform duration-300" />
             <SiGmail onClick={ OpenEmail } className="text-orange-700 hover:text-orange-500 cursor-pointer hover:scale-110 transition-transform duration-300" />
