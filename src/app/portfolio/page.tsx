@@ -15,8 +15,8 @@ export default function Portfolio() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 p-2">
                 {[
                     { src: "/images/project-images/Screenshot (25).png", title: "Ecommerce Web Application", url: "https://www.essentialstore.live/" },
-                    { src: "/images/project-images/Screenshot (26).png", title: "Media Storage Web Application" },
-                    { src: "/images/project-images/Screenshot (27).png", title: "Blogging Web Application" }
+                    { src: "/images/project-images/Screenshot (26).png", title: "Media Storage Web Application", url: "https://www.essentialstore.live/" },
+                    { src: "/images/project-images/Screenshot (27).png", title: "Blogging Web Application", url: "https://www.essentialstore.live/" }
                 ].map((project, index) => (
                     <div key={index} className="relative w-full h-auto overflow-hidden shadow-lg group">
                         <img
